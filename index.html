@@ -209,7 +209,7 @@ return words.join(' ');
   let digits = phoneNumber.split("");
   let template = "(XXX) XXX-XXXX".split("");
 
-  for (let i = 0; i < template.length; i++) {
+  for (let i = 0; i < template.length;i++) {
     if (template[i] === "X") {
       template[i] = digits.pop();
     }
